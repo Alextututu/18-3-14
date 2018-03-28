@@ -6,10 +6,8 @@
 </head>
 <body>
 <script type="text/javascript">
-	
 	/*
 		下面输出结果是什么？
-		
 	*/
 	
 	function outer(){
@@ -21,13 +19,11 @@
 	
 	var getNum = outer();
 	
-	console.log(getNum());
-	console.log(getNum());
+	console.log(getNum());//1
+	console.log(getNum());//2
 	i=1;
-	console.log(getNum());
-	console.log(getNum());
-	
-	
+	console.log(getNum());//3
+	console.log(getNum());//4
 	
 </script>
 </body>

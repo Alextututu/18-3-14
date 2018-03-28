@@ -17,7 +17,12 @@
 	
 	/*
 		写一个获取非行间样式的函数
+		
+		IE下获取非行间样式：
+			element.currentStyle.width
 	*/
+
+	console.log(div.currentStyle.width);
 	
 	function getStyle(obj,attr){
 		return obj.currentStyle?obj.currentStyle[attr]:getComputedStyle(obj)[attr];
